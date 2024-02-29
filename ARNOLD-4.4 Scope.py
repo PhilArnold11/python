@@ -1,9 +1,12 @@
 #global variables
-1 POUND = 0.453592 KILOGRAMS
-1 INCH = 0.0254 METERS
+POUND = 0.453592 KILOGRAMS
+INCH = 0.0254 METERS
 def main():
-    weight = "Enter your weight in pounds:  "
-    height = "Enter your height in inches:  "
+    entered_weight = "Enter your wieght in pounds:  "
+    weight=entered_weight * POUND
+    entered_height = "Enter your hieght in inches:  "
+    height=entered_height * INCH
+
     bmi = weight / height * height
     print(f'Your BMI is {bmi: .2f}')
     if bmi < 18.5:
@@ -14,3 +17,4 @@ def main():
         print('You are in the overweight category.')
     else:
         print('You are in the obese category.')
+main()
