@@ -1,6 +1,6 @@
 def factorial(n):
     if n == 1 or n == 0:#define base case
-        return 1
+        return 1 #the factorial of 1 and 0 is 1
     else:#define recursive step
         return n*factorial(n-1)#n multiplied by a call to itself with n-1
 def main():
