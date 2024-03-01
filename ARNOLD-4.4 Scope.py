@@ -2,9 +2,9 @@
 POUND = 0.453592 KILOGRAMS
 INCH = 0.0254 METERS
 def main():
-    entered_weight = "Enter your wieght in pounds:  "
+    entered_weight = float(input)("Enter your wieght in pounds:  ")
     weight=entered_weight * POUND
-    entered_height = "Enter your hieght in inches:  "
+    entered_height = float(input)("Enter your hieght in inches:  ")
     height=entered_height * INCH
 
     bmi = weight / height * height
