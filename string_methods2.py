@@ -55,53 +55,54 @@ print('-'.join(iterable1))
 # Example: Convert "PYTHON" to lowercase
 string10 = "PYTHON"
 # Your code here
-
+print(string10.lower())
 # TODO: Use the lstrip() method to remove leading characters (spaces by default)
 # Example: Remove leading spaces from "  python"
 string11 = "  python"
 # Your code here
-
+print(string11.lstrip())
 # TODO: Use the rstrip() method to remove trailing characters (spaces by default)
 # Example: Remove trailing spaces from "python  "
 string12 = "python  "
 # Your code here
-
+print(string12.rstrip())
 # TODO: Use the replace() method to replace all occurrences of a substring with another substring
 # Example: Replace "python" with "snake" in "I love python"
 string13 = "I love python"
 # Your code here
-
+print(string13.replace('python', 'snake'))
 # TODO: Use the rfind() method to find the highest index of a substring
 # Example: Find the highest index of "n" in "python"
 string14 = "python"
 # Your code here
-
+print(string14.rfind('n'))
 # TODO: Use the split() method to split the string at a specified separator
 # Example: Split "python-is-fun" at "-"
 string15 = "python-is-fun"
 # Your code here
-
+print(string15.split('-'))
 # TODO: Use the startswith() method to check if the string starts with a specified substring
 # Example: Check if "python" starts with "py"
 string16 = "python"
 # Your code here
-
+print(string16.startswith('py'))
 # TODO: Use the strip() method to remove both leading and trailing characters (spaces by default)
 # Example: Remove spaces from "  python  "
 string17 = "  python  "
 # Your code here
-
+print(string17.strip())
 # TODO: Use the swapcase() method to swap the case of all characters in the string
 # Example: Swap case of "Python"
 string18 = "Python"
 # Your code here
-
+print(string18.swapcase())
 # TODO: Use the title() method to convert the first character of each word to uppercase
 # Example: Convert "python is fun" to title case
 string19 = "python is fun"
 # Your code here
-
+print(string19.title())
 # TODO: Use the upper() method to convert all characters in the string to uppercase
 # Example: Convert "python" to uppercase
 string20 = "python"
 # Your code here
+print(string20.upper())
